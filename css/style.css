@@ -1,16 +1,41 @@
 body {
     font-family:monospace, verdana, sans-serif;
+    font-size: large;
+    text-align: center;
     color:darkred;
     background-color:burlywood;
+}
+
+ul {
+    text-align: left;
+}
+
+#signup {
+    size: 25vw;
+}
+
+img {
+    width:96%; 
+    height:96%;
+    max-width: 750px;
+    margin: 0vw;
 }
 
 header {
     color:burlywood;
     background-color:darkred;
+    margin: 0%;
 }
 
-nav {
-    color:darkred;
+#navi a {
+    font-size:110%;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+#navi a:hover {
+    border-bottom: 1px solid darkred;
 }
 
 #about {
@@ -21,4 +46,15 @@ nav {
 footer {
     color:burlywood;
     background-color:darkred;
+}
+
+#contact a {
+    font-size: 110%;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact a:hover {
+    border-bottom: 1px solid burlywood;
 }

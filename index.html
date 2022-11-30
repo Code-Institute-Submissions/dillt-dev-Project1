@@ -15,21 +15,23 @@
     
     <!--Navigation-->
     <nav>
-        <div>
+        <div id="navi">
             <a href="#about">About</a>
+            <a>|</a>
             <a href="#signup">Sign Up</a>
+            <a>|</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
 
     <!--Intro-->
     <h2>Welcome to the Table Top Role Playing Game Club.</h2>
-    <img src="https://images.pexels.com/photos/7061817/pexels-photo-7061817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <img src="https://images.pexels.com/photos/7061817/pexels-photo-7061817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A close up photo of dice">
     
     <!--About-->
     <div id="about">
         <h2>About</h2>
-        <p>Enter worlds of adventure and magic.</p>
+        <h4>Enter worlds of adventure and magic.</h4>
         <h3>At the club:</h3>
         <div>
             <ul>
@@ -59,36 +61,40 @@
         <form>
             <h2>Sign Up</h2>
             <h3>€20 admition!</h3>
-            <table>
-                <tr>
-                    <td><label for="name-field">Name</label></td>
-                    <td><input id="name-field" type="text" name="full_name" placeholder="enter name"></td>
-                </tr>
-                <tr>
-                    <td><label for="email-field">Email</label></td>
-                    <td><input id="email-field" type="email" name="email" placeholder="enter email"></td>        
-                </tr>
-                <tr>
-                    <td>
-                        <button type="submit">
-                            <strong>Submit</strong>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="reset" value="reset form">
-                    </td>
-                </tr>
-            </table>
-                    </form>
+            <div>
+                <label for="name-field">Name</label></td>
+            </div>
+            <div>
+                <input id="name-field" type="text" name="full_name" placeholder="enter name" required>
+            </div>
+            <div>
+                <label for="email-field">Email</label>
+            </div>
+            <div>
+                <input id="email-field" type="email" name="email" placeholder="enter email" required>
+            </div>
+            <div>
+                <button type="submit">
+                    <strong>Submit</strong>
+                </button>
+            </div>
+            <div>
+                <input type="reset" value="reset form">
+            </div>
+        </form>
     </div>
 
     <!--Contact Info-->
     <footer id="contact">
-        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        <a href="https://twitter.com/" target="_blank">Twitter</a>
+        <h2>Contact Information</h2>
+        <h3>For all questions and queries</h3>
+        <h4>012 345 6789 | info@ttrpgclub.net</h4>
+        <h4>Dragons Leyer Comics, 123 Fakestreet, Portloaise</h4>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)">Facebook</a>
+        <a>|</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)">Instagram</a>
+        <a>|</a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in new tab)">Twitter</a>
     </footer>
 </body>
 </html>
