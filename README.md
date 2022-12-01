@@ -16,3 +16,54 @@ At the top of the page is the website name TTRPG.
     - Their colour is changed to match the website. 
 ![title and navigation](images/Title.png)
 
+- __Page image and introduction__
+This section introduces the user to the website and has an image of multi sided dice to further show what the website is about. 
+![image and intro](images/Page%20image.png)
+
+- __About__ 
+
+    -This section has information on times the club operates. 
+    -There is a list of the facilities at the club. 
+    -The section takes the inverse of the colours for the page to stand out. 
+![about section](images/About%20section.png)
+
+- __Sign Up Form__ 
+
+    - The Sign up form has sections for name and email. 
+    - The form will only accept filled sections. 
+    - The email field will only accept emails. 
+![sign up](images/Sign%20up%20screen.png) 
+
+- __Contact__ 
+
+    - The contact section is a uselful tool for users to contact the club. 
+    - Contact information is clearly layed out. 
+    - There are links to the clubs social media pages. 
+    - This section also takes the inverse of the the normal page colours to stand out. 
+![Contact](images/Contact%20section.png)
+
+## Testing 
+
+- I tested the page to work on Chrome and Firefox. 
+
+- I confirmed that the project functions on pc and mobile. 
+
+- I confirm that the links are easy to read and function. 
+
+- The form functions and all fields must be filled and only an email wil be accepted in the email field. 
+
+### Bugs 
+No bugs to report. 
+
+### Validator Testing 
+
+- HTML
+    - A stray closing tag was found, removed. 
+
+- CSS
+    - The method I used to fix the Header and Footer tight to the top and bottom of the page was wrong, "bottom: 1;" and "top: 1;" were used in the Header and Footer respectfully and acieved my intended vision, but numbers other than 0 must have a unit after them. This broke my design so I decided to remove this feature when I couldn't find another solution. 
+
+- Accessibility 
+    - Confirmed the layout and design of my site are easy to read and accessible by running light house. 
+![lighthouse score](images/lighthouse%20score.png)
+
