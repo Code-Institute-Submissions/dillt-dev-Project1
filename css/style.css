@@ -4,21 +4,15 @@ body {
     text-align: center;
     color:darkred;
     background-color:burlywood;
+    position: relative;
 }
 
 header {
     color:burlywood;
     background-color:darkred;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 1;
+    position: relative;
     height: 100px;
     width: 100%;
-}
-
-nav {
-    padding-top: 100px;
 }
 
 #navi a {
@@ -42,8 +36,6 @@ img {
 #about {
     color:burlywood;
     background-color:darkred;
-    margin: 0;
-    border: 0;
     padding-top: 1px;
     padding-bottom: 30px;
     width: 100%;
@@ -55,22 +47,15 @@ ul {
 
 #signup {
     padding-bottom: 25px;
-}
-
-textarea {
-    width: 250px; 
+    position: relative;
 }
 
 footer {
     color:burlywood;
     background-color:darkred;
     padding-bottom: 25px;
-}
-
-#contact {
-    position: absolute;
-    top: 1;
-    left: 0;
+    position: relative;
+    float: left;
     width: 100%;
 }
 
