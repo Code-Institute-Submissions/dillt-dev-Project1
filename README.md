@@ -67,3 +67,15 @@ No bugs to report.
     - Confirmed the layout and design of my site are easy to read and accessible by running light house. 
 ![lighthouse score](images/lighthouse%20score.png)
 
+### Unfixed Bugs
+No unfixed bugs 
+
+## Deployment 
+
+- 
+
+
+## Credits 
+
+### Media
+    - The image of dice was taken from https://images.pexels.com/photos/7061817/pexels-photo-7061817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 
